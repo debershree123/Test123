@@ -1,4 +1,4 @@
-#include <stdio.h>
+]#include <stdio.h>
 
 int main() {
   int num1, num2, sum;
@@ -17,8 +17,18 @@ printf("The sum of %d and %d is: %d\n", num1, num2, sum);
 
 return 0;
 }
-int addfunc( int a, int b){
+<<<<<<< HEAD
+  int addfunc( int  a, int b )
+{
+  int c = a+b;
+  return c;
+}
+// added same function in main branch
+=======
+int addfunc( int a, int b )
+{
   int c = a+b;
   return c;
 }
 //added in branch1
+>>>>>>> branch1
